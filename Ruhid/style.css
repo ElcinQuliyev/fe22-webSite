@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 92px;
+    width: 100%;
+    background-color: #1C1E53;
+    display: flex;
+    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+}
+
+.logo {
+    display: flex;
+    margin-left: 160px;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list ul a {
+    color: #BBBBCB;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-list ul a:hover {
+    color: white;
+}
+
+.nav-list ul li {
+    margin-left: 32px;
+}
+
+.nav-list ul li:first-child {
+    margin: 0;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn button {
+    font-weight: 500;
+    background-color: #1C1E53;
+    border: 2px solid #f4f6fc4e;
+    width: 160px;
+    height: 50px;
+    border-radius: 41px;
+    margin-left: 75px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn button:hover {
+    background-color: #252771;
+}
+
+.our-work {
+    background-color: #1C1E53;
+    width: 100%;
+    height: 530px;
+    margin-top: 92px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.our-work .box1 {
+    position: absolute;
+    margin-left: 160px;
+}
+
+.our-work .box1 h1 {
+    color: white;
+    width: 582px;
+    font-size: 54px;
+    margin-bottom: 10px;
+
+}
+
+.our-work .box1 p {
+    width: 562px;
+    color: white;
+}
+
+
+.box1  button {
+    width: 150px;
+    height: 50px;
+    background-color: #FCD980;
+    border-style: none;
+    color: #1B1C2B;
+    transition: 0.4s;
+    margin-right: 10px;
+    border-radius: 41px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.box1 button:hover{
+    background-color: #fecc4e;
+}
+
+.box1 a{
+    color: white;
+    text-decoration: none;
+}
+.box2{
+    margin-left: 800px;
+}
+.works .works-heading{
+   
+    height: 500px;
+    margin: 128px 0 0 165px;
+
+}
+.works .works-heading p{
+    width: 405px;
+    margin: 10px 0;
+    color: #282938;
+}
+.works .works-heading h2{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    width: 405px;
+}
+.works .works-heading a{
+    text-decoration: none;
+    color: #2405F2;
+    font-weight: 500;
+}
+
+.works{
+    display: flex;
+}
+.works .cards{
+    margin-left: 142px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 128px;
+}
+.works .cards .card{
+    width: 310px;
+    height: 178px;
+}
